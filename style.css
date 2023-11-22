@@ -19,12 +19,10 @@ body{
 }
 .plz {
     color: rgb(255, 255, 255);
-    text-align: center;
 }
 
 .let {
     color: rgb(241, 241, 241);
-    text-align: center;
 }
 p {
     text-shadow: 5px 0 #888888;
@@ -39,9 +37,9 @@ p {
 }
 .enterpage {
     background: url('bj.png') no-repeat center center fixed; 
-    /* -webkit-background-size: cover;
+    -webkit-background-size: cover;
     -moz-background-size: cover;
-    -o-background-size: cover; */
+    -o-background-size: cover;
     background-size: cover;
     height: 100vh;
 }
@@ -49,7 +47,7 @@ p {
     margin-top:10px;
 	background-color: #9995956d;
 	color:#fff;
-	padding: 15px 100px;
+	padding: 20px 180px;
 	border: 0;
 	text-align: center;
 	border-radius: 20px;
@@ -70,7 +68,8 @@ input[type="text"]{
 }
 
 .container {
-    margin: 10px 50px;
-    text-align: center;
-
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
