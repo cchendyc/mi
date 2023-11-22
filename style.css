@@ -14,7 +14,7 @@ body{
     text-align: center;
     font-family: 'Chalkduster', sans-serif;
     font-weight: 900;
-    font-size: 40px;
+    font-size: 50px;
     color: rgb(255, 255, 255);
     
 
@@ -31,6 +31,7 @@ p {
 }
 .endpage {
     background-image: url('bg2.png');
+    background-size: 1000px 1000px;
 }
 .enterpage {
     background-image: url('bj.png');
