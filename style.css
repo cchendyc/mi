@@ -15,12 +15,12 @@ body{
     font-family: 'Chalkduster', sans-serif;
     font-weight: 900;
     font-size: 40px;
-    color: rgb(219, 99, 55);
+    color: rgb(255, 255, 255);
     
 
 }
 .plz {
-    color: rgb(219, 99, 55);
+    color: rgb(255, 255, 255);
 }
 
 .let {
@@ -34,7 +34,7 @@ p {
 }
 .enterpage {
     background-image: url('bj.png');
-    background-size: 800px 800px;
+    background-size: 1200px 1000px;
 }
 .bt0 {
     margin-top:10px;
