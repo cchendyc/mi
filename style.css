@@ -16,8 +16,6 @@ body{
     font-weight: 900;
     font-size: 50px;
     color: rgb(255, 255, 255);
-    
-
 }
 .plz {
     color: rgb(255, 255, 255);
@@ -30,16 +28,22 @@ p {
     text-shadow: 5px 0 #888888;
 }
 .endpage {
-    background-image: url('bg2.png');
-    background-size:     cover;
-    background-repeat:   no-repeat;
-    background-position: center center;  
+    background: url('bg2.png') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
 }
 .enterpage {
-    background-image: url('bj.png');
-    background-size:     cover;
-    background-repeat:   no-repeat;
-    background-position: center center; 
+    background: url('bj.png') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100vw;
+height: 100vh;
 }
 .bt0 {
     margin-top:10px;
@@ -64,3 +68,31 @@ input[type="text"]{
     width: 500px;
     height: 60px;
 }
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+    body {
+      background-size: cover;
+    }
+  } 
+  
+  /********** Medium devices only **********/
+  @media (min-width: 992px) and (max-width: 1199px) {
+    body {
+      background-size: cover;
+    }
+  }
+  
+  /********** Small devices only **********/
+  @media (min-width: 768px) and (max-width: 991px) {
+    body {
+      background-size: cover;
+    }
+  }
+  
+  /********** Extra small devices only **********/
+  @media (max-width: 767px) {
+    body {
+      background-size: cover;
+    }
+  }
