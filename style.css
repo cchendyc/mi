@@ -1,0 +1,60 @@
+@import url('https://fonts.cdnfonts.com/css/chalkduster');
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	line-height: 3em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: 'Chalkduster', sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    color: rgb(219, 99, 55);
+    
+
+}
+.plz {
+    color: rgb(219, 99, 55);
+}
+
+.let {
+    color: rgb(241, 241, 241);
+}
+p {
+    text-shadow: 5px 0 #888888;
+}
+.endpage {
+    background-image: url('bg2.png');
+}
+.enterpage {
+    background-image: url('bg.png');
+}
+.bt0 {
+    margin-top:10px;
+	background-color: #9995956d;
+	color:#fff;
+	padding: 15px 100px;
+	border: 0;
+	text-align: center;
+	border-radius: 20px;
+    font-family: 'Chalkduster', sans-serif;
+    font-size: 40px;
+
+}
+
+.bt0:hover{
+	background: rgba(246, 70, 70, 0.711);
+	color: #fff;
+
+}
+
+input[type="text"]{
+    width: 400px;
+    height: 40px;
+}
