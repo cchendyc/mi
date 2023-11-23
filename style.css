@@ -44,6 +44,20 @@ p {
     background-size: cover;
     height: 100vh;
 }
+
+.one {
+    background: url('one.png') no-repeat; 
+    background-size: cover;
+}
+.three {
+    background: url('two.png') no-repeat; 
+    background-size: cover;
+}
+.submit0 {
+    height: 100%;
+    width: 5000px;
+    background-color: #2b2626;
+}
 .bt0 {
     margin-top:10px;
 	background-color: #9995956d;
